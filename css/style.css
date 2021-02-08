@@ -1,0 +1,58 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size:18px;
+}
+nav{
+	background-color: #1E2132;
+	color: white;
+}
+nav > h1{
+	padding:20px;
+}
+#all-countries{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content:center;
+	column-gap: 30px;
+	row-gap : 30px;
+	align-items: center;
+}
+.country{
+	padding:2%;
+	display: flex;
+	flex-flow : column wrap;
+	justify-content: center;
+	height:200px;
+	align-items: center;
+	row-gap :40px;
+	background-color:#1E2132;
+}
+.imgname{
+	z-index : 2;
+	width:100%;
+	display: flex;
+	flex-flow:row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color:  #2e3440;
+	text-align:center;
+}
+img{
+	z-index : 3;
+	width:80px;
+	height:50px;
+}
+.imgname > h3{
+	padding:5px 10px;
+	color:white;
+	background-color:  #3F4C5E;
+	border-radius: 50px;
+	justify-self: center;
+}
+.capital{
+	padding:5px 10px;
+	text-align: center;
+	font-size:24px;
+	color:white;
+}
+
